@@ -5,8 +5,12 @@
       "error",
       {
         "endOfLine": "auto",
-        "semi": true
+        "semi": true,
+        "singleQuote": true
       }
     ]
-  }
+  },
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ]
 }
